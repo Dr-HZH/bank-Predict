@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="14b6de870d62489f80b73c839bb936d1" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_14b6de870d62489f80b73c839bb936d1 = echarts.init(
+            document.getElementById('14b6de870d62489f80b73c839bb936d1'), 'white', {renderer: 'canvas'});
+        var option_14b6de870d62489f80b73c839bb936d1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "DecisionTree",
+            "data": [
+                [
+                    0.0037986278533935548,
+                    0.007402610778808594,
+                    0.771967116852613,
+                    0.6870515902563556,
+                    0.7517911565053614,
+                    0.6831416334481468
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#c23531"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "KNN",
+            "data": [
+                [
+                    0.004398918151855469,
+                    0.01400151252746582,
+                    0.7582501467997651,
+                    0.708545243466536,
+                    0.7422174911592002,
+                    0.6918389396305757
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#2f4554"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "RandomForest",
+            "data": [
+                [
+                    0.23041844367980957,
+                    0.021149301528930665,
+                    0.8393423370522607,
+                    0.7257898351648352,
+                    0.773540182595078,
+                    0.7119376943280378
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#61a0a8"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "LogisticRegression",
+            "data": [
+                [
+                    0.019602155685424803,
+                    0.007599782943725586,
+                    0.8561362301820317,
+                    0.7444882088572438,
+                    0.7424818318196926,
+                    0.7220942029405831
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#d48265"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "SVM",
+            "data": [
+                [
+                    0.011197757720947266,
+                    0.013402366638183593,
+                    0.8393423370522607,
+                    0.7022887203661952,
+                    0.7424818318196926,
+                    0.6866484456903146
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {
+                    "color": "#91c7ae"
+                }
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 2,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0.2
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "DecisionTree",
+                "KNN",
+                "RandomForest",
+                "LogisticRegression",
+                "SVM"
+            ],
+            "selected": {
+                "DecisionTree": true,
+                "KNN": true,
+                "RandomForest": true,
+                "LogisticRegression": true,
+                "SVM": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5206\u7c7b\u5668\u6027\u80fd\u5bf9\u6bd4",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "radar": {
+        "indicator": [
+            {
+                "name": "Fit_time"
+            },
+            {
+                "name": "Score_time"
+            },
+            {
+                "name": "Accuracy"
+            },
+            {
+                "name": "Precision"
+            },
+            {
+                "name": "Recall"
+            },
+            {
+                "name": "F1-Score"
+            }
+        ],
+        "shape": "circle",
+        "name": {
+            "textStyle": {}
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    }
+};
+        chart_14b6de870d62489f80b73c839bb936d1.setOption(option_14b6de870d62489f80b73c839bb936d1);
+    </script>
+</body>
+</html>
